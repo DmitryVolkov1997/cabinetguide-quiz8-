@@ -626,7 +626,7 @@ const ContactForm: FC<ContactFormProps> = () => {
 						</div>
 					</div>
 					<div className={styles.info}>
-						<Button appearance={'dark'} rounded={'rounded'} onClick={getEducationProgram}>Add</Button>
+						{/*<Button appearance={'dark'} rounded={'rounded'} onClick={getEducationProgram}>Add</Button>*/}
 						<h3 className={styles.info__title}>Образовательные программы</h3>
 						<div className={styles.info__row}>
 							<Link
